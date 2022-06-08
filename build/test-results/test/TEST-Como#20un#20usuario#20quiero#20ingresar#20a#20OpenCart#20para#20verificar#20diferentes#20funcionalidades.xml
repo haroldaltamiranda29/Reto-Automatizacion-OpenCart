@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Como un usuario quiero ingresar a OpenCart para verificar diferentes funcionalidades" tests="3" skipped="0" failures="3" errors="0" timestamp="2022-06-08T18:10:02" hostname="CHMEP220RQ93" time="44.081">
+  <properties/>
+  <testcase name="Verificar que no tengo perimisos para crear nuevos clientes" classname="Como un usuario quiero ingresar a OpenCart para verificar diferentes funcionalidades" time="19.997">
+    <failure message="org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1267, -413)&#10;  (Session info: chrome=102.0.5005.63)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'CHMEP220RQ93', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\HALTAM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56808}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 138c82a7584d015b80eb9b8eb689a192" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1267, -413)
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CHMEP220RQ93', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\HALTAM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56808}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 138c82a7584d015b80eb9b8eb689a192
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1231)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$R3Mt2Tre.performAs$accessor$Rxa6Jn5j(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:471)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:451)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:424)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$R3Mt2Tre.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at net.serenitybdd.screenplay.Actor.wasAbleTo(Actor.java:158)
+	at co.com.choucair.opencart.tasks.Diligenciar.performAs(Diligenciar.java:28)
+	at co.com.choucair.opencart.tasks.Diligenciar$ByteBuddy$QhjCrbli.performAs$accessor$6OB4xCp8(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:471)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:451)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:424)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
+	at co.com.choucair.opencart.tasks.Diligenciar$ByteBuddy$QhjCrbli.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at co.com.choucair.opencart.stepdefinitions.OpenCartStepDefinition.llenoLosFormulariosConLaInformacionDelClienteYDoyClickEnEnBotonSave(OpenCartStepDefinition.java:36)
+	at ✽.lleno los formularios con la informacion del cliente y doy click en en boton save(src/test/resources/features/open-cart.feature:14)
+</failure>
+  </testcase>
+  <testcase name="Filtrar una orden por su ID y verificar que retorne una sola orden" classname="Como un usuario quiero ingresar a OpenCart para verificar diferentes funcionalidades" time="14.572">
+    <failure message="org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1275, 792)&#10;  (Session info: chrome=102.0.5005.63)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'CHMEP220RQ93', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\HALTAM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56838}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 775504471b0cdba0928e075d291d2cb9" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1275, 792)
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CHMEP220RQ93', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\HALTAM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56838}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 775504471b0cdba0928e075d291d2cb9
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1231)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$vZ5bPQ22.performAs$accessor$fpRvIM7z(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:471)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:451)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:424)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$vZ5bPQ22.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at co.com.choucair.opencart.tasks.Filtro.performAs(Filtro.java:27)
+	at co.com.choucair.opencart.tasks.Filtro$ByteBuddy$b7QAzFLy.performAs$accessor$EhU4Ewtv(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:471)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:451)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:424)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
+	at co.com.choucair.opencart.tasks.Filtro$ByteBuddy$b7QAzFLy.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at co.com.choucair.opencart.stepdefinitions.OpenCartStepDefinition.aplicoElFiltroParaElPedidoConSuOrderIDYCustomer(OpenCartStepDefinition.java:50)
+	at ✽.aplico el filtro para el pedido con su orderID y Customer(src/test/resources/features/open-cart.feature:22)
+</failure>
+  </testcase>
+  <testcase name="Agregar un producto a una orden" classname="Como un usuario quiero ingresar a OpenCart para verificar diferentes funcionalidades" time="9.497">
+    <failure message="cucumber.runtime.CucumberException: Arity mismatch: Step Definition 'co.com.choucair.opencart.stepdefinitions.OpenCartStepDefinition.agregoUnProductoALaOrdenConSuInformacion() in file:/C:/Users/haltamirandas/Documents/OpenCart/build/classes/java/test/' with pattern [^agrego un producto a la orden con su informacion$] is declared with 0 parameters. However, the gherkin step has 1 arguments [Table:[[chooseProduct, quantity], [Canon EOS 5D, 2]]]. &#10;Step text: agrego un producto a la orden con su informacion" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: Arity mismatch: Step Definition 'co.com.choucair.opencart.stepdefinitions.OpenCartStepDefinition.agregoUnProductoALaOrdenConSuInformacion() in file:/C:/Users/haltamirandas/Documents/OpenCart/build/classes/java/test/' with pattern [^agrego un producto a la orden con su informacion$] is declared with 0 parameters. However, the gherkin step has 1 arguments [Table:[[chooseProduct, quantity], [Canon EOS 5D, 2]]]. 
+Step text: agrego un producto a la orden con su informacion
+	at cucumber.runtime.StepDefinitionMatch.arityMismatch(StepDefinitionMatch.java:111)
+	at cucumber.runtime.StepDefinitionMatch.transformedArgs(StepDefinitionMatch.java:66)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
+	at cucumber.api.TestStep.executeStep(TestStep.java:102)
+	at cucumber.api.TestStep.run(TestStep.java:83)
+	at cucumber.api.TestCase.run(TestCase.java:58)
+	at cucumber.runner.Runner.runPickle(Runner.java:80)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:118)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:56)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:127)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7362d2ae
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@16888082
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@6053c7c9
+jun 08, 2022 1:10:03 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, goog:chromeOptions: {args: [--start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 47094
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jun 08, 2022 1:10:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que no tengo perimisos para crear nuevos clientes:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que no tengo perimisos para crear nuevos clientes:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4fbcb380
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@736c0163
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que no tengo perimisos para crear nuevos clientes:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@1a7c9558
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que no tengo perimisos para crear nuevos clientes:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@73e9e30a
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que no tengo perimisos para crear nuevos clientes:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@34396de0
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que no tengo perimisos para crear nuevos clientes:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que no tengo perimisos para crear nuevos clientes:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que no tengo perimisos para crear nuevos clientes:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@5cdb0a5a
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@242db03f
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7f70a52f
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que no tengo perimisos para crear nuevos clientes:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono la opcion customers de la categoria customers y click en el boton add new [Harold customers [Harold clicks on Seleccionar la cateoria Customers]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@6aef18cf
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que no tengo perimisos para crear nuevos clientes:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono la opcion customers de la categoria customers y click en el boton add new [Harold customers [Harold clicks on Seleccionar la cateoria Customers, Harold clicks on Selecciona customers de la lista desplegable]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4457838d
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que no tengo perimisos para crear nuevos clientes:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono la opcion customers de la categoria customers y click en el boton add new [Harold customers [Harold clicks on Seleccionar la cateoria Customers, Harold clicks on Selecciona customers de la lista desplegable, Harold clicks on Boton agregar nuevo]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que no tengo perimisos para crear nuevos clientes:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono la opcion customers de la categoria customers y click en el boton add new [Harold customers [Harold clicks on Seleccionar la cateoria Customers, Harold clicks on Selecciona customers de la lista desplegable, Harold clicks on Boton agregar nuevo]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que no tengo perimisos para crear nuevos clientes:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono la opcion customers de la categoria customers y click en el boton add new [Harold customers [Harold clicks on Seleccionar la cateoria Customers, Harold clicks on Selecciona customers de la lista desplegable, Harold clicks on Boton agregar nuevo]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@646fe64f
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3f5e7796
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3dbc21da
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que no tengo perimisos para crear nuevos clientes:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono la opcion customers de la categoria customers y click en el boton add new [Harold customers [Harold clicks on Seleccionar la cateoria Customers, Harold clicks on Selecciona customers de la lista desplegable, Harold clicks on Boton agregar nuevo]], Cuando lleno los formularios con la informacion del cliente y doy click en en boton save
+| firstName | lastName | email | password | confirm | address | city |
+| Harold | Altamiranda | harold@gmail.com | harold123 | harold123 | calle 23#45-34 | Medellin | [Harold diligenciar [Harold enters 'Harold' into Caja de texto primer nombre]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@448493fa
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que no tengo perimisos para crear nuevos clientes:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono la opcion customers de la categoria customers y click en el boton add new [Harold customers [Harold clicks on Seleccionar la cateoria Customers, Harold clicks on Selecciona customers de la lista desplegable, Harold clicks on Boton agregar nuevo]], Cuando lleno los formularios con la informacion del cliente y doy click en en boton save
+| firstName | lastName | email | password | confirm | address | city |
+| Harold | Altamiranda | harold@gmail.com | harold123 | harold123 | calle 23#45-34 | Medellin | [Harold diligenciar [Harold enters 'Harold' into Caja de texto primer nombre, Harold enters 'Altamiranda' into Caja de texto apellido]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@35b49a6f
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que no tengo perimisos para crear nuevos clientes:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono la opcion customers de la categoria customers y click en el boton add new [Harold customers [Harold clicks on Seleccionar la cateoria Customers, Harold clicks on Selecciona customers de la lista desplegable, Harold clicks on Boton agregar nuevo]], Cuando lleno los formularios con la informacion del cliente y doy click en en boton save
+| firstName | lastName | email | password | confirm | address | city |
+| Harold | Altamiranda | harold@gmail.com | harold123 | harold123 | calle 23#45-34 | Medellin | [Harold diligenciar [Harold enters 'Harold' into Caja de texto primer nombre, Harold enters 'Altamiranda' into Caja de texto apellido, Harold enters 'harold@gmail.com' into Caja de texto del email]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@62dcd067
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que no tengo perimisos para crear nuevos clientes:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono la opcion customers de la categoria customers y click en el boton add new [Harold customers [Harold clicks on Seleccionar la cateoria Customers, Harold clicks on Selecciona customers de la lista desplegable, Harold clicks on Boton agregar nuevo]], Cuando lleno los formularios con la informacion del cliente y doy click en en boton save
+| firstName | lastName | email | password | confirm | address | city |
+| Harold | Altamiranda | harold@gmail.com | harold123 | harold123 | calle 23#45-34 | Medellin | [Harold diligenciar [Harold enters 'Harold' into Caja de texto primer nombre, Harold enters 'Altamiranda' into Caja de texto apellido, Harold enters 'harold@gmail.com' into Caja de texto del email, Harold enters 'harold123' into Caja de texto de la contraseÃ±a]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@2ded6803
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Verificar que no tengo perimisos para crear nuevos clientes:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono la opcion customers de la categoria customers y click en el boton add new [Harold customers [Harold clicks on Seleccionar la cateoria Customers, Harold clicks on Selecciona customers de la lista desplegable, Harold clicks on Boton agregar nuevo]], Cuando lleno los formularios con la informacion del cliente y doy click en en boton save
+| firstName | lastName | email | password | confirm | address | city |
+| Harold | Altamiranda | harold@gmail.com | harold123 | harold123 | calle 23#45-34 | Medellin | [Harold diligenciar [Harold enters 'Harold' into Caja de texto primer nombre, Harold enters 'Altamiranda' into Caja de texto apellido, Harold enters 'harold@gmail.com' into Caja de texto del email, Harold enters 'harold123' into Caja de texto de la contraseÃ±a, Harold enters 'harold123' into Caja de texto confirmar contraseÃ±a]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@d4e24c1
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@156a388b
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: Verificar que no tengo perimisos para crear nuevos clientes:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono la opcion customers de la categoria customers y click en el boton add new [Harold customers [Harold clicks on Seleccionar la cateoria Customers, Harold clicks on Selecciona customers de la lista desplegable, Harold clicks on Boton agregar nuevo]], Cuando lleno los formularios con la informacion del cliente y doy click en en boton save
+| firstName | lastName | email | password | confirm | address | city |
+| Harold | Altamiranda | harold@gmail.com | harold123 | harold123 | calle 23#45-34 | Medellin | [Harold diligenciar [Harold enters 'Harold' into Caja de texto primer nombre, Harold enters 'Altamiranda' into Caja de texto apellido, Harold enters 'harold@gmail.com' into Caja de texto del email, Harold enters 'harold123' into Caja de texto de la contraseÃ±a, Harold enters 'harold123' into Caja de texto confirmar contraseÃ±a, Harold clicks on Boton guardar]], Entonces deberia visualizar el siguiente mensaje "Warning: You do not have permission to modify customers!"
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [Verificar que no tengo perimisos para crear nuevos clientes:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono la opcion customers de la categoria customers y click en el boton add new [Harold customers [Harold clicks on Seleccionar la cateoria Customers, Harold clicks on Selecciona customers de la lista desplegable, Harold clicks on Boton agregar nuevo]], Cuando lleno los formularios con la informacion del cliente y doy click en en boton save
+| firstName | lastName | email | password | confirm | address | city |
+| Harold | Altamiranda | harold@gmail.com | harold123 | harold123 | calle 23#45-34 | Medellin | [Harold diligenciar [Harold enters 'Harold' into Caja de texto primer nombre, Harold enters 'Altamiranda' into Caja de texto apellido, Harold enters 'harold@gmail.com' into Caja de texto del email, Harold enters 'harold123' into Caja de texto de la contraseÃ±a, Harold enters 'harold123' into Caja de texto confirmar contraseÃ±a, Harold clicks on Boton guardar]], Entonces deberia visualizar el siguiente mensaje "Warning: You do not have permission to modify customers!"]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [Verificar que no tengo perimisos para crear nuevos clientes:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono la opcion customers de la categoria customers y click en el boton add new [Harold customers [Harold clicks on Seleccionar la cateoria Customers, Harold clicks on Selecciona customers de la lista desplegable, Harold clicks on Boton agregar nuevo]], Cuando lleno los formularios con la informacion del cliente y doy click en en boton save
+| firstName | lastName | email | password | confirm | address | city |
+| Harold | Altamiranda | harold@gmail.com | harold123 | harold123 | calle 23#45-34 | Medellin | [Harold diligenciar [Harold enters 'Harold' into Caja de texto primer nombre, Harold enters 'Altamiranda' into Caja de texto apellido, Harold enters 'harold@gmail.com' into Caja de texto del email, Harold enters 'harold123' into Caja de texto de la contraseÃ±a, Harold enters 'harold123' into Caja de texto confirmar contraseÃ±a, Harold clicks on Boton guardar]], Entonces deberia visualizar el siguiente mensaje "Warning: You do not have permission to modify customers!"]
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Verificar que no tengo perimisos para crear nuevos clientes
+---------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Harold clicks on Boton guardar
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - element click intercepted: Element is not clickable at point (1267, -413)
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@60ec28bc
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@577b8d0b
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@77742117
+jun 08, 2022 1:10:22 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, goog:chromeOptions: {args: [--start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 40913
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jun 08, 2022 1:10:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Filtrar una orden por su ID y verificar que retorne una sola orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Filtrar una orden por su ID y verificar que retorne una sola orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@57ddefe4
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@473e5608
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Filtrar una orden por su ID y verificar que retorne una sola orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7b0f1148
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Filtrar una orden por su ID y verificar que retorne una sola orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@74c31ce0
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Filtrar una orden por su ID y verificar que retorne una sola orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@dd8e65b
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Filtrar una orden por su ID y verificar que retorne una sola orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Filtrar una orden por su ID y verificar que retorne una sola orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Filtrar una orden por su ID y verificar que retorne una sola orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3717372c
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@77864bc6
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@73514803
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Filtrar una orden por su ID y verificar que retorne una sola orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono la opcion pedidos de la categoria ventas [Harold ventas [Harold clicks on Lista desplegable de sales]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@5928874d
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Filtrar una orden por su ID y verificar que retorne una sola orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono la opcion pedidos de la categoria ventas [Harold ventas [Harold clicks on Lista desplegable de sales, Harold clicks on Selecciona categoria order]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Filtrar una orden por su ID y verificar que retorne una sola orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono la opcion pedidos de la categoria ventas [Harold ventas [Harold clicks on Lista desplegable de sales, Harold clicks on Selecciona categoria order]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Filtrar una orden por su ID y verificar que retorne una sola orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono la opcion pedidos de la categoria ventas [Harold ventas [Harold clicks on Lista desplegable de sales, Harold clicks on Selecciona categoria order]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@d559b3d
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@518db02b
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@14654c10
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Filtrar una orden por su ID y verificar que retorne una sola orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono la opcion pedidos de la categoria ventas [Harold ventas [Harold clicks on Lista desplegable de sales, Harold clicks on Selecciona categoria order]], Cuando aplico el filtro para el pedido con su orderID y Customer
+| orderID | customer |
+| 16 | Ahmed Demo | [Harold filtro [Harold enters '16' into Caja de texto orderId]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@37efb193
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Filtrar una orden por su ID y verificar que retorne una sola orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono la opcion pedidos de la categoria ventas [Harold ventas [Harold clicks on Lista desplegable de sales, Harold clicks on Selecciona categoria order]], Cuando aplico el filtro para el pedido con su orderID y Customer
+| orderID | customer |
+| 16 | Ahmed Demo | [Harold filtro [Harold enters '16' into Caja de texto orderId, Harold enters 'Ahmed Demo' into Caja de texto curtomer]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@164d2ec6
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3490be79
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: Filtrar una orden por su ID y verificar que retorne una sola orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono la opcion pedidos de la categoria ventas [Harold ventas [Harold clicks on Lista desplegable de sales, Harold clicks on Selecciona categoria order]], Cuando aplico el filtro para el pedido con su orderID y Customer
+| orderID | customer |
+| 16 | Ahmed Demo | [Harold filtro [Harold enters '16' into Caja de texto orderId, Harold enters 'Ahmed Demo' into Caja de texto curtomer, Harold clicks on Boton filtro]], Entonces deberia visualizar el pedido con orderID "16" store "Your Store" y customer "Ahmed Demo"
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [Verificar que no tengo perimisos para crear nuevos clientes:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono la opcion customers de la categoria customers y click en el boton add new [Harold customers [Harold clicks on Seleccionar la cateoria Customers, Harold clicks on Selecciona customers de la lista desplegable, Harold clicks on Boton agregar nuevo]], Cuando lleno los formularios con la informacion del cliente y doy click en en boton save
+| firstName | lastName | email | password | confirm | address | city |
+| Harold | Altamiranda | harold@gmail.com | harold123 | harold123 | calle 23#45-34 | Medellin | [Harold diligenciar [Harold enters 'Harold' into Caja de texto primer nombre, Harold enters 'Altamiranda' into Caja de texto apellido, Harold enters 'harold@gmail.com' into Caja de texto del email, Harold enters 'harold123' into Caja de texto de la contraseÃ±a, Harold enters 'harold123' into Caja de texto confirmar contraseÃ±a, Harold clicks on Boton guardar]], Entonces deberia visualizar el siguiente mensaje "Warning: You do not have permission to modify customers!", Filtrar una orden por su ID y verificar que retorne una sola orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono la opcion pedidos de la categoria ventas [Harold ventas [Harold clicks on Lista desplegable de sales, Harold clicks on Selecciona categoria order]], Cuando aplico el filtro para el pedido con su orderID y Customer
+| orderID | customer |
+| 16 | Ahmed Demo | [Harold filtro [Harold enters '16' into Caja de texto orderId, Harold enters 'Ahmed Demo' into Caja de texto curtomer, Harold clicks on Boton filtro]], Entonces deberia visualizar el pedido con orderID "16" store "Your Store" y customer "Ahmed Demo"]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [Verificar que no tengo perimisos para crear nuevos clientes:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono la opcion customers de la categoria customers y click en el boton add new [Harold customers [Harold clicks on Seleccionar la cateoria Customers, Harold clicks on Selecciona customers de la lista desplegable, Harold clicks on Boton agregar nuevo]], Cuando lleno los formularios con la informacion del cliente y doy click en en boton save
+| firstName | lastName | email | password | confirm | address | city |
+| Harold | Altamiranda | harold@gmail.com | harold123 | harold123 | calle 23#45-34 | Medellin | [Harold diligenciar [Harold enters 'Harold' into Caja de texto primer nombre, Harold enters 'Altamiranda' into Caja de texto apellido, Harold enters 'harold@gmail.com' into Caja de texto del email, Harold enters 'harold123' into Caja de texto de la contraseÃ±a, Harold enters 'harold123' into Caja de texto confirmar contraseÃ±a, Harold clicks on Boton guardar]], Entonces deberia visualizar el siguiente mensaje "Warning: You do not have permission to modify customers!", Filtrar una orden por su ID y verificar que retorne una sola orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono la opcion pedidos de la categoria ventas [Harold ventas [Harold clicks on Lista desplegable de sales, Harold clicks on Selecciona categoria order]], Cuando aplico el filtro para el pedido con su orderID y Customer
+| orderID | customer |
+| 16 | Ahmed Demo | [Harold filtro [Harold enters '16' into Caja de texto orderId, Harold enters 'Ahmed Demo' into Caja de texto curtomer, Harold clicks on Boton filtro]], Entonces deberia visualizar el pedido con orderID "16" store "Your Store" y customer "Ahmed Demo"]
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Filtrar una orden por su ID y verificar que retorne una sola orden
+---------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Harold clicks on Boton filtro
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - element click intercepted: Element is not clickable at point (1275, 792)
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3820a4a3
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@64fe7962
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@78a389bb
+jun 08, 2022 1:10:37 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, goog:chromeOptions: {args: [--start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 46647
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jun 08, 2022 1:10:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Agregar un producto a una orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Agregar un producto a una orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@27b078b4
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@573d1f90
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Agregar un producto a una orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@a7efab3
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Agregar un producto a una orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@2b9d47a7
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Agregar un producto a una orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7fac86cf
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Agregar un producto a una orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Agregar un producto a una orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Agregar un producto a una orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@76558ce9
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:Agregar un producto a una orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono ver una orden de los ultimos pedidos
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3517bb76
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@45d27fb2
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: Agregar un producto a una orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono ver una orden de los ultimos pedidos, Cuando agrego un producto a la orden con su informacion
+| chooseProduct | quantity |
+| Canon EOS 5D | 2 |, Entonces se valida que se modifique el carito de compra con el siguiente mensaje "Success: You have modified your shopping cart!"
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [Verificar que no tengo perimisos para crear nuevos clientes:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono la opcion customers de la categoria customers y click en el boton add new [Harold customers [Harold clicks on Seleccionar la cateoria Customers, Harold clicks on Selecciona customers de la lista desplegable, Harold clicks on Boton agregar nuevo]], Cuando lleno los formularios con la informacion del cliente y doy click en en boton save
+| firstName | lastName | email | password | confirm | address | city |
+| Harold | Altamiranda | harold@gmail.com | harold123 | harold123 | calle 23#45-34 | Medellin | [Harold diligenciar [Harold enters 'Harold' into Caja de texto primer nombre, Harold enters 'Altamiranda' into Caja de texto apellido, Harold enters 'harold@gmail.com' into Caja de texto del email, Harold enters 'harold123' into Caja de texto de la contraseÃ±a, Harold enters 'harold123' into Caja de texto confirmar contraseÃ±a, Harold clicks on Boton guardar]], Entonces deberia visualizar el siguiente mensaje "Warning: You do not have permission to modify customers!", Filtrar una orden por su ID y verificar que retorne una sola orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono la opcion pedidos de la categoria ventas [Harold ventas [Harold clicks on Lista desplegable de sales, Harold clicks on Selecciona categoria order]], Cuando aplico el filtro para el pedido con su orderID y Customer
+| orderID | customer |
+| 16 | Ahmed Demo | [Harold filtro [Harold enters '16' into Caja de texto orderId, Harold enters 'Ahmed Demo' into Caja de texto curtomer, Harold clicks on Boton filtro]], Entonces deberia visualizar el pedido con orderID "16" store "Your Store" y customer "Ahmed Demo", Agregar un producto a una orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono ver una orden de los ultimos pedidos, Cuando agrego un producto a la orden con su informacion
+| chooseProduct | quantity |
+| Canon EOS 5D | 2 |, Entonces se valida que se modifique el carito de compra con el siguiente mensaje "Success: You have modified your shopping cart!"]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [Verificar que no tengo perimisos para crear nuevos clientes:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono la opcion customers de la categoria customers y click en el boton add new [Harold customers [Harold clicks on Seleccionar la cateoria Customers, Harold clicks on Selecciona customers de la lista desplegable, Harold clicks on Boton agregar nuevo]], Cuando lleno los formularios con la informacion del cliente y doy click en en boton save
+| firstName | lastName | email | password | confirm | address | city |
+| Harold | Altamiranda | harold@gmail.com | harold123 | harold123 | calle 23#45-34 | Medellin | [Harold diligenciar [Harold enters 'Harold' into Caja de texto primer nombre, Harold enters 'Altamiranda' into Caja de texto apellido, Harold enters 'harold@gmail.com' into Caja de texto del email, Harold enters 'harold123' into Caja de texto de la contraseÃ±a, Harold enters 'harold123' into Caja de texto confirmar contraseÃ±a, Harold clicks on Boton guardar]], Entonces deberia visualizar el siguiente mensaje "Warning: You do not have permission to modify customers!", Filtrar una orden por su ID y verificar que retorne una sola orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono la opcion pedidos de la categoria ventas [Harold ventas [Harold clicks on Lista desplegable de sales, Harold clicks on Selecciona categoria order]], Cuando aplico el filtro para el pedido con su orderID y Customer
+| orderID | customer |
+| 16 | Ahmed Demo | [Harold filtro [Harold enters '16' into Caja de texto orderId, Harold enters 'Ahmed Demo' into Caja de texto curtomer, Harold clicks on Boton filtro]], Entonces deberia visualizar el pedido con orderID "16" store "Your Store" y customer "Ahmed Demo", Agregar un producto a una orden:Dado que estoy en la pagina opencart e inicio sesion con usuario y clave
+| usuario | clave |
+| demo | demo | [Harold open up [Harold opens the Open cart page], Harold login [Harold enters 'demo' into Caja de texto de usuario, Harold enters 'demo' into Caja de texto de contraseÃ±a, Harold clicks on Boton login, Harold clicks on Boton X de la pagina de inicio]], Y selecciono ver una orden de los ultimos pedidos, Cuando agrego un producto a la orden con su informacion
+| chooseProduct | quantity |
+| Canon EOS 5D | 2 |, Entonces se valida que se modifique el carito de compra con el siguiente mensaje "Success: You have modified your shopping cart!"]
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Agregar un producto a una orden
+---------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Cuando agrego un producto a la orden con su informacion | chooseProduct | quantity | | Canon EOS 5D | 2 |
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Arity mismatch: Step Definition 'co.com.choucair.opencart.stepdefinitions.OpenCartStepDefinition.agregoUnProductoALaOrdenConSuInformacion() in file:/C:/Users/haltamirandas/Documents/OpenCart/build/classes/java/test/' with pattern [^agrego un producto a la orden con su informacion$] is declared with 0 parameters. However, the gherkin step has 1 arguments [Table:[[chooseProduct, quantity], [Canon EOS 5D, 2]]]. 
+]]></system-err>
+</testsuite>
