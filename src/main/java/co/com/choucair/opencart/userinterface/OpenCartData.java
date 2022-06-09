@@ -81,5 +81,21 @@ public class OpenCartData {
     public static final Target TEXT_CUSTOMER = Target.the("Texto curtomer")
             .located(By.id("//*[@id=\"form-order\"]/div[1]/table/tbody/tr/td[4]"));
 
-
+    //CAMPOS MAPEADOS PARA EL TERCER CASO DE PRUEBA
+    public static final Target VER_PEDIDO = Target.the("Ver pedido")
+            .located(By.xpath("//*[@id=\"content\"]/div[2]/div[3]/div[2]/div/div[2]/table/tbody/tr/td[6]/a/i"));
+    public static final Target AGREGAR_PEDIDO = Target.the("Agregar pedido")
+            .located(By.xpath("//*[@id=\"content\"]/div[2]/div[1]/div[2]/table[1]/tfoot/tr/td[2]/button"));
+    public static final Target NOMBRE_PEDIDO = Target.the("Ver pedido")
+            .located(By.id("input-product"));
+    public static final Target ESCOGER_PEDIDO = Target.the("Escoger pedido")
+            .located(By.xpath("//*[@id=\"list-product\"]/option[2]"));
+    public static final Target OPCION_COLOR = Target.the("Opcion color")
+            .located(By.id("input-option-226"));
+    public static final Target COLOR = Target.the("Escoger pedido")
+            .located(By.xpath("//*[@id=\"input-option-226\"]/option[2]"));
+    public static final Target SAVE = Target.the("Guardar producto")
+            .located(By.id("button-product-add"));
+    public static final Target MENSAJE2 = Target.the("Mensaje de respuesta")
+            .located(By.xpath("//*[@id=\"form-product-add\"]/div[1]"));
 }
